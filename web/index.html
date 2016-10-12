@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h2>Calculadora</h2></div>
+        <form action="operaciones.jsp" method="post" name="altas">
+            <div>
+                <br><br>
+                Teclee un primer número (Máximo 3 cifras): <input type="text" name="numero1" maxlength="3">
+                <br><br>
+                Teclee un segundo número (Máximo 3 cifras: <input type="text" name="numero2" maxlength="3">
+                <br><br>
+                <div>
+                    Seleccione una operación:
+                    <input type="submit" name="bt" value="+">
+                    <input type="submit" name="bt" value="-">
+                    <input type="submit" name="bt" value="*">
+                    <input type="submit" name="bt" value="/">
+                </div> 
+            </div>
+        </form>
+    </body>
+</html>
